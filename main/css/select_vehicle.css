@@ -1,0 +1,270 @@
+#first_row {
+	margin-top:3em;
+	padding-bottom:2.5em;	
+}
+
+.v_row {
+	padding-top:0.25em;
+}
+
+.v_pic {
+	margin-top:-5em;
+}
+
+h2 {
+	margin-top:1em;
+}
+
+.row img {
+	padding-bottom:25px;
+}
+ul li
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+form  {
+	margin: 0;
+}
+
+.mandatory {
+	color: #e7006a;
+}
+sup {
+	height: 0;
+	line-height: 1;
+	position: relative;
+	top: -0.6em;
+	vertical-align: baseline !important;
+	vertical-align: bottom;
+}
+.input {
+	width: 150px;
+}
+.dropdown {
+	width: 167px;
+}
+.minutes {
+	width: 70px;
+}
+.times {
+	width: 65px;
+}
+.dates {
+	width: 67px;
+	vertical-align: middle;
+}
+.inputCode {
+	width: 116px;
+}
+.calendar {
+	vertical-align: middle;
+}
+
+/*------------------------------- Floats ---------------------------------*/
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clearer {
+	clear: both;
+	height: 0px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	line-height: 0;
+	white-space: nowrap;
+}
+
+/*------------------------------- Layout ---------------------------------*/
+#search {
+ 
+	
+	
+	margin-bottom: 10px;
+	padding: 10px 0px 0px 0px;
+}
+#search td {
+	height: 45px;
+	vertical-align: bottom;
+}
+
+#search p
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*------------------------------- Menu / Dropdowns ---------------------------------*/
+
+
+/*------------------------------- Booking Process ---------------------------------*/
+
+.progress 
+{
+    padding-right:10px;
+}
+
+#yourDetails {
+    float:left;
+	width: 700px;
+	height: 104px;
+	background: url(../img/bgdYourDetails.jpg) no-repeat 0 0;
+	margin-bottom: 15px;
+	padding: 40px 15px 0;
+}
+#vehicleResultsTop {
+    float:left;
+	width: 715px;
+	height: 36px;
+	background: url(../img/bgdVehicleResultsTop.jpg) no-repeat 0 0;
+	margin: 0;
+	padding: 0;
+}
+#vehicleResults {
+    float:left;
+	width: 700px;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	overflow: hidden;
+	padding: 0 15px;
+}
+#vehicleResultsBottom {
+	width: 715px;
+	height: 19px;
+	background: url(../img/bgdVehicleResultsBottom.jpg) no-repeat 0 0;
+	margin: 0 0 15px;
+	padding: 0;
+}
+.vehicle {
+	width: 665px;
+	border-bottom: 1px solid #cacaca;
+	padding: 10px 0;
+	padding-left: 50px;
+	text-align: left;
+}
+.vehicle span {
+	color: #2b2b2b;
+	font-size: 18px;
+}
+.vehicle a {
+	color: #2b2b2b;
+	font-size: 10px;
+}
+#yourCosts {
+	width: 700px;
+	border: 1px solid #cbcbc9;
+	margin-bottom: 15px;
+	padding: 7px 15px 15px;
+}
+#loginRegister {
+	width: 700px;
+	border: 1px solid #cbcbc9;
+	margin-bottom: 15px;
+	padding: 7px 15px 15px;
+}
+#confirm {
+	width: 715px;
+	border: 1px solid #cbcbc9;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+.details {
+	width: 250px;
+}
+.phoneNo {
+	color: #2b2b2b !important;
+	font-size: 14px;
+}
+
+/*------------------------------- Table Styles ---------------------------------*/
+
+th {
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+}
+.row01 {
+	background: #e2e2e2;
+}
+.row02 {
+	background: #ededed;
+}
+#totalPayable {
+	font-size: 18px;
+	font-weight: bold;
+	color: #16018f;
+}
+#totalPayable td {
+	border-top: solid 1px #e6e6e6;
+	padding-top: 5px;
+}
+
+/*------------------------------- Account Pages ---------------------------------*/
+
+#accountMenu {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #dedede;
+	margin-bottom: 25px;
+	overflow: hidden;
+	text-align: right;	
+}
+
+.error
+{
+    color:red;
+
+}
+
+.MyBookingOne
+{
+	width:250px;
+	float:left;
+	
+}
+.MyBookingTwo
+{
+	width:270px;
+	float:right;
+	font-size:12px;
+	text-align: left;
+	margin-right: 10px;
+}
+
+
+/* -- Media Queries ------------------------------------------------------------------------------------ */
+
+/* XX-Small Displays: upto 320px   [Added by Author 18.03.2013] */
+@media only screen and (max-width: 20em) {
+
+}
+
+/* X-Small Displays: 320px to 544px   [Added by Author 18.03.2013] */
+@media only screen and (min-width: 20em) and (max-width: 34em) {			
+	
+}
+
+/* Small Displays: 544px - 768px; [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 34em) and (max-width: 48em) {
+
+}
+
+/* Medium Displays: 768px - 1280px [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 48em) and max-width: 80em){
+
+}
+	
+/* Large Displays: 1280px - 1440px [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 80em) and (min-width: 90em) {
+
+}
+
+/* X-Large Displays: 1440px and up [Foundation Framework]*/
+@media only screen and (min-width: 90em) {
+	
+}

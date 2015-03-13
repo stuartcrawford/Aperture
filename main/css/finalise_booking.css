@@ -1,0 +1,59 @@
+/* Cascade Styling Sheet
+ * @Author: Alex McCormick */
+
+/* -- General ------------------------------------------------------------------------------------ */
+
+#first_row {
+	margin-top:5em;
+}
+
+.button_container {
+	height:50px;
+	direction:rtl;
+}
+
+#last_row {
+}
+
+.bordered_div {
+	border-style: solid;
+	margin-bottom:2.5em; 	
+}
+
+.bordered_div p {
+	padding-left:1em;
+	padding-right:1em;	
+}
+
+/* -- Media Queries ------------------------------------------------------------------------------------ */
+
+/* XX-Small Displays: upto 320px   [Added by Author 18.03.2013] */
+@media only screen and (max-width: 20em) {
+
+}
+
+/* X-Small Displays: 320px to 544px   [Added by Author 18.03.2013] */
+@media only screen and (min-width: 20em) and (max-width: 34em) {			
+	
+}
+
+/* Small Displays: 544px - 768px; [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 34em) and (max-width: 48em) {
+
+}
+
+/* Medium Displays: 768px - 1280px [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 48em) and max-width: 80em){
+
+}
+	
+/* Large Displays: 1280px - 1440px [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 80em) and (min-width: 90em) {
+
+}
+
+/* X-Large Displays: 1440px and up [Foundation Framework]*/
+@media only screen and (min-width: 90em) {
+	
+}
+/* ----------------------------------------------------------------------------------------------------- */

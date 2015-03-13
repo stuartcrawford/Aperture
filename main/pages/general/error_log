@@ -1,0 +1,8 @@
+[10-May-2013 04:17:31 Europe/London] PHP Warning:  Missing argument 2 for formValidator::__construct(), called in /home/apertu99/public_html/pdc13/main/pages/general/registration.php on line 9 and defined in /home/apertu99/public_html/pdc13/main/php/formvalidator.php on line 33
+[10-May-2013 04:17:36 Europe/London] PHP Warning:  Missing argument 2 for formValidator::__construct(), called in /home/apertu99/public_html/pdc13/main/pages/general/registration.php on line 9 and defined in /home/apertu99/public_html/pdc13/main/php/formvalidator.php on line 33
+[10-May-2013 04:17:38 Europe/London] PHP Warning:  Missing argument 2 for formValidator::__construct(), called in /home/apertu99/public_html/pdc13/main/pages/general/registration.php on line 9 and defined in /home/apertu99/public_html/pdc13/main/php/formvalidator.php on line 33
+[10-May-2013 04:21:12 Europe/London] PHP Fatal error:  Call to a member function selected() on a non-object in /home/apertu99/public_html/pdc13/main/pages/general/registration.php on line 10
+[10-May-2013 00:50:02 America/New_York] PHP Parse error:  syntax error, unexpected '(', expecting T_VARIABLE or '$' in /home/apertu99/public_html/pdc13/main/pages/general/registration.php on line 42
+[10-May-2013 01:29:49 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/apertu99/public_html/pdc13/main/pages/general/registration.php on line 34
+[10-May-2013 03:11:37 America/New_York] PHP Parse error:  syntax error, unexpected '{' in /home/apertu99/public_html/pdc13/main/php/formvalidator.php on line 182
+[10-May-2013 03:13:00 America/New_York] PHP Parse error:  syntax error, unexpected '{' in /home/apertu99/public_html/pdc13/main/php/formvalidator.php on line 182

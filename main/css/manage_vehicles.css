@@ -1,0 +1,204 @@
+/* Cascade Styling Sheet
+ * @Author: Alex McCormick */
+
+/* -- General ------------------------------------------------------------------------------------ */
+
+#first_row {
+	margin-top:5em;
+	max-width:70em;
+	width:98%;
+}
+
+#second_row {
+	max-width:70em;
+	width:98%;
+}
+
+#third_row {
+	max-width:70em;
+	width:98%;
+}
+
+#tab_container {
+	margin-top:1.5em;
+	max-width:70em;
+	width:98%;
+}
+
+form.custom .custom.dropdown ul {
+	max-height:100px;
+}
+
+/* -- Footable ------------------------------------------------------------------------------------ */
+
+.footable > thead > tr > th,.footable > thead > tr > td {
+  position: relative;
+}
+
+.footable {
+  border-spacing: 0;
+  width: 100%;
+  border: solid #ccc 1px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  font-family: 'trebuchet MS' , 'Lucida sans' , Arial;
+  font-size: 14px;
+  color: #444;
+}
+
+.footable.breakpoint > tbody > tr > td.expand {
+  padding-left: 40px;
+}
+
+.footable.breakpoint > tbody > tr.footable-detail-show > td.expand {
+  
+}
+
+.footable.breakpoint > tbody > tr.footable-row-detail {
+  background: #eee;
+}
+
+.footable > tbody > tr:hover {
+  background: #fbf8e9;
+}
+
+.footable.breakpoint > tbody > tr:hover:not(.footable-row-detail) {
+  cursor: pointer;
+}
+
+.footable > tbody > tr > td, .footable > thead > tr > th {
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.footable > thead > tr > th, .footable > thead > tr > td {
+  background-color:#00A3CD;
+
+/*  background-color: #dce9f9; 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+  background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+  background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+  background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+  background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
+  background-image: linear-gradient(to bottom, #ebf3fc, #dce9f9);
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  border-top: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5); */
+
+}
+
+.footable > thead > tr:first-child > th.footable-first-column, .footable > thead > tr:first-child > td.footable-first-column {
+  -moz-border-radius: 6px 0 0 0;
+  -webkit-border-radius: 6px 0 0 0;
+  border-radius: 6px 0 0 0;
+}
+
+.footable > thead > tr:first-child > th.footable-last-column, .footable > thead > tr:first-child > td.footable-last-column {
+  -moz-border-radius: 0 6px 0 0;
+  -webkit-border-radius: 0 6px 0 0;
+  border-radius: 0 6px 0 0;
+}
+
+.footable > thead > tr:first-child > th.footable-first-column.footable-last-column, .footable > thead > tr:first-child > td.footable-first-column.footable-last-column {
+  -moz-border-radius: 6px 6px 0 0;
+  -webkit-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+}
+
+.footable > tbody > tr:last-child > td.footable-first-column {
+  -moz-border-radius: 0 0 0 6px;
+  -webkit-border-radius: 0 0 0 6px;
+  border-radius: 0 0 0 6px;
+}
+
+.footable > tbody > tr:last-child > td.footable-last-column {
+  -moz-border-radius: 0 0 6px 0;
+  -webkit-border-radius: 0 0 6px 0;
+  border-radius: 0 0 6px 0;
+}
+
+.footable > tbody > tr:last-child > td.footable-first-column.footable-last-column {
+  -moz-border-radius: 0 0 6px 6px;
+  -webkit-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+}
+
+.footable > thead > tr > th.footable-first-column, .footable > thead > tr > td.footable-first-column,
+.footable > tbody > tr > td.footable-first-column {
+  border-left: none;
+}
+
+.footable > tbody img {
+  vertical-align:middle;
+}
+
+/* -- Footable Sortable ----------------------------------------------------------------------------------- */
+
+.footable > thead > tr > th > span.footable-sort-indicator {
+  width: 16px;
+  height: 16px;
+  display: block;
+  float:right;
+}
+
+.footable > thead > tr > th.footable-sortable:hover {
+  cursor:pointer;
+}
+
+.footable > thead > tr > th.footable-sortable > span {
+  
+}
+
+.footable > thead > tr > th.footable-sorted > span.footable-sort-indicator {
+  background-position: 0 -16px;
+}
+
+.footable > thead > tr > th.footable-sorted-desc > span.footable-sort-indicator {
+  background-position: 0 -32px;
+}
+
+/* -- Media Queries ------------------------------------------------------------------------------------ */
+
+/* XX-Small Displays: upto 320px   [Added by Author 18.03.2013] */
+@media only screen and (max-width: 20em) {
+
+	.lhs {
+		margin-left:0.05em;
+	}
+
+}
+
+/* X-Small Displays: 320px to 544px   [Added by Author 18.03.2013] */
+@media only screen and (min-width: 20em) and (max-width: 34em) {			
+
+	.lhs {
+		margin-left:0.05em;
+	}
+
+}
+
+/* Small Displays: 544px - 768px; [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 34em) and (max-width: 48em) {
+
+}
+
+/* Medium Displays: 768px - 1280px [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 48em) and max-width: 80em){
+
+}
+	
+/* Large Displays: 1280px - 1440px [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 80em) and (min-width: 90em) {
+
+}
+
+/* X-Large Displays: 1440px and up [Foundation Framework]*/
+@media only screen and (min-width: 90em) {
+	
+}
+/* ----------------------------------------------------------------------------------------------------- */

@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^account/(.*)$ pdc13/main/pages/account/$1 [L]
+RewriteRule ^booking/(.*)$ pdc13/main/pages/booking/$1 [L]
+RewriteRule ^general/(.*)$ pdc13/main/pages/general/$1 [L]
+RewriteRule ^$ pdc13/main/pages/general/ [L]
+ErrorDocument 404 /pdc13/main/pages/general/page_not_found.php
+Options -Indexes

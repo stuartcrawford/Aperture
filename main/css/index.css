@@ -1,0 +1,151 @@
+/* Cascade Styling Sheet
+ * @Author: Alex McCormick */
+
+/* -- General ------------------------------------------------------------------------------------ */
+
+#first_row {
+	margin-top:3em;	
+}
+
+#bookingform1 {
+	margin-top:2.75em;
+	margin-left:2em;
+	background-color:white;
+	margin-right:-100%;
+	z-index: 9999999;
+	height:380px;
+}
+
+#crossslide {
+	margin-top:1.5em;
+	height:35em;
+	z-index:1;
+}
+
+.info_icon_container p {
+	text-align:center;
+}
+
+.info_icon {
+	margin-left:36%;
+}
+
+#aperturebar {
+	margin-bottom:1.5em;
+	margin-left:2.5%;
+	width:95%;
+	background-color:#00a3cd;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+#sitemap {
+	margin-left:5%;
+	width:95%;
+}
+
+ul.nobullets {
+    list-style-type: none;
+}
+
+/* -- Media Queries ------------------------------------------------------------------------------------ */
+
+/* XX-Small Displays: upto 320px   [Added by Author 18.03.2013] */
+@media only screen and (max-width: 20em) {
+
+	#crossslide {
+		display:none;
+	}					
+	
+	#bookingform1 {
+		margin:0;
+	 	margin-right:100%;
+	 	margin-top:1.25em;
+	}
+	
+	.info_icon {
+		margin-left:30%;
+	}
+	
+	#aperturebarlogo {
+		width:90%;
+	} 
+	
+}
+
+/* X-Small Displays: 320px to 544px   [Added by Author 18.03.2013] */
+@media only screen and (min-width: 20em) and (max-width: 34em) {			
+	
+	#bookingform1 {
+		margin:0;
+	 	margin-right:100%;
+	 	margin-top:1em;
+	}
+	
+	#crossslide {
+		margin-top:2.5em;
+		height:20em;
+		margin-bottom:1.5em;
+	}
+	
+	#aperturebarlogo {
+		width:60%;
+	}
+	
+	.info_icon_container {
+		display:none;
+	}
+	
+}
+
+/* Small Displays: 544px - 768px; [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 34em) and (max-width: 48em) {
+
+	#bookingform1 {
+		margin:0;
+	 	margin-right:100%;
+	 	margin-top:1.25em;
+	}
+	
+	#crossslide {
+		margin-top:2.5em;
+		margin-bottom:1.5em;
+		height:22em;
+	}
+	
+	.info_icon_container p {
+		text-align:left;
+	}
+	
+	.info_icon {
+		margin-left:24%;
+	} 
+	
+	.icon-picture, .icon-text {
+		float:left;	
+	}
+	
+	.icon-picture {
+		width:30%;
+	}
+	
+	.icon-text {
+		width:70%;
+	}
+}
+
+/* Medium Displays: 768px - 1280px [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 48em) and max-width: 80em){
+
+}
+	
+/* Large Displays: 1280px - 1440px [Amended from Foundation Framework by @Author 18.03.2013] */
+@media only screen and (min-width: 80em) and (min-width: 90em) {
+
+}
+
+/* X-Large Displays: 1440px and up [Foundation Framework]*/
+@media only screen and (min-width: 90em) {
+	
+}
+/* ----------------------------------------------------------------------------------------------------- */
